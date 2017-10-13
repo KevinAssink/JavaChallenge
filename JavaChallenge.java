@@ -58,19 +58,19 @@ public void paint (Graphics g){
 
     //Val
     g.setColor(Color.black);
-    g.drawString("Valerie", 75,300);
+    g.drawString("Valerie", 75,320);
     g.setColor(Color.red);
     g.fillRect(70, YVal, 50, GewichtVal*2);
 
     //Je
     g.setColor(Color.black);
-    g.drawString("Jeroen", 145,300);
+    g.drawString("Jeroen", 145,320);
     g.setColor(Color.green);
     g.fillRect(140, YJer, 50, GewichtJer*2);
 
     //Hans
     g.setColor(Color.black);
-    g.drawString("Hans", 215,300);
+    g.drawString("Hans", 215,320);
     g.setColor(Color.cyan);
     g.fillRect(210, YHans, 50, GewichtHans*2);
 }
